@@ -1,0 +1,82 @@
+ Comprehensive AI Prompt for "SmartKid Manager"
+"I am developing a full-featured MERN stack web application named 'SmartKid Manager' aimed at intelligent management of kindergartens and schools. The platform should cater to parents, teachers, and directors, providing a secure, user-friendly interface. Please generate the complete codebase with the following specifications:"
+
+🔐 Authentication & User Roles
+Secure Authentication: Implement JWT-based authentication with refresh tokens.
+
+User Roles: Define roles for 'Parent', 'Teacher', and 'Director', each with specific permissions.
+
+Role-Based Access Control: Restrict access to routes and components based on user roles.
+
+🏫 Core Features
+Student Information System (SIS): Manage student profiles, including personal details, medical records, and emergency contacts .
+
+Attendance Tracking: Enable teachers to record daily attendance; allow parents to view attendance history.
+
+Grade Reporting: Provide tools for teachers to input grades and generate report cards; allow parents to view academic progress .
+
+Scheduling: Manage class schedules, events, and extracurricular activities; integrate calendar views for all users.
+
+🎓 Educational Enhancements
+Milestone Tracking: Allow teachers to set and monitor student learning objectives across various categories (academic, behavioral, physical).
+
+Badge/Achievement System: Enable creation and assignment of custom badges to students for accomplishments; display badges on student profiles.
+
+Homework Management: Facilitate assignment distribution, submission tracking, and grading.
+
+📊 Administrative Tools
+Dashboard Analytics: Provide directors with visual representations of school statistics, including enrollment numbers, attendance rates, and academic performance.
+
+User Management: Allow directors to manage user accounts, assign roles, and monitor activity logs.
+
+Content Management System (CMS): Enable administrators to update website content, including announcements, blog posts, and event information .
+
+📱 Communication & Engagement
+Messaging System: Implement real-time messaging between parents and teachers; include notifications for important updates.
+
+Multilingual Support: Provide interface translations to cater to diverse user bases.
+
+Mobile Responsiveness: Ensure the application is fully responsive and optimized for various devices.
+
+🎨 User Interface & Experience
+Modern UI Design: Utilize Tailwind CSS or Material UI for a clean, intuitive interface.
+
+Animations: Incorporate smooth transitions and animations using libraries like Framer Motion.
+
+Accessibility: Adhere to WCAG guidelines to ensure accessibility for all users.
+
+🛠️ Technical Specifications
+Frontend: React.js with React Router for navigation.
+
+Backend: Node.js with Express.js; MongoDB for the database.
+
+API Integration: Structure RESTful APIs for all functionalities; ensure secure data transmission.
+
+Deployment: Provide scripts and configurations for deploying the application on platforms like Vercel (frontend) and Render (backend).
+
+📂 Project Structure
+bash
+Copy
+Edit
+/smartkid-manager
+├── /client
+│   ├── /src
+│   │   ├── /components
+│   │   ├── /pages
+│   │   ├── /contexts
+│   │   └── App.js
+├── /server
+│   ├── /controllers
+│   ├── /models
+│   ├── /routes
+│   └── server.js
+├── .env
+├── package.json
+└── README.md
+📄 Documentation & Setup
+README.md: Include comprehensive setup instructions, feature overviews, and usage guidelines.
+
+Environment Variables: Document required environment variables and their purposes.
+
+API Documentation: Provide detailed API endpoint descriptions and usage examples.
+
